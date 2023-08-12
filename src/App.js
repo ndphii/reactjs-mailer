@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {
+  Route,
+  Routes,
+} from "react-router-dom";
+import Header from './header_footer/header';
+import Toeic from "./screen/toeic";
+import Home from "./screen/homepage";
+import Contact from "./screen/contact"
+import "./style/App.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="backgorund ">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/Toeic" element={<Toeic />} ></Route>
+        <Route path="/Contact" element={<Contact />} ></Route>
+      </Routes>
+    </div >
   );
 }
 

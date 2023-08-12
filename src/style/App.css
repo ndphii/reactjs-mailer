@@ -1,0 +1,8 @@
+.backgorund {
+    background-image: url("../assets/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fill;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,38 @@
+:root {
+    --bs-scroll-height: 100px;
+}
+.myHeader {
+    background-color: transparent; /* Màu nền mặc định của header */
+    transition: background-color 0.5s ease; /* Hiệu ứng chuyển màu */
+}
+
+/* Thay đổi màu nền khi cuộn chuột */
+.myHeader.scrolled {
+    background-color: black; /* Màu nền mới khi cuộn */
+}
+.dropdown-menu {
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 1) -5.91%, rgba(74, 47, 189, 1) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.dropdown-item {
+    color: aliceblue;
+}
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-link:hover {
+    box-shadow: 0 0 10px 5px rgba(128, 0, 128, 0.8);
+}
+.btn-search {
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+}
+.btn-search:hover {
+    font-size: 24px;
+    background-color: blueviolet;
+    color: rgb(174, 53, 185);
+    box-shadow: 0 0 10px 5px rgba(128, 0, 128, 0.9);
+}
