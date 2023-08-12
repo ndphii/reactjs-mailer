@@ -57,9 +57,7 @@ class Header extends React.Component {
                             </ul>
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-search d-flex justify-content-center align align-items-center" type="submit"><span class="material-icons-outlined">
-                                    search
-                                </span></button>
+                                <button className="btn btn-search d-flex justify-content-center align align-items-center" type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
                             </form>
                         </div>
                     </div >

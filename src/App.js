@@ -6,6 +6,7 @@ import Header from './header_footer/header';
 import Toeic from "./screen/toeic";
 import Home from "./screen/homepage";
 import Contact from "./screen/contact"
+import Footer from "./header_footer/footer";
 import "./style/App.css"
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Toeic" element={<Toeic />} ></Route>
         <Route path="/Contact" element={<Contact />} ></Route>
       </Routes>
+      <Footer />
     </div >
   );
 }

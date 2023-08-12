@@ -31,7 +31,6 @@
     position: relative;
 }
 .btn-search:hover {
-    font-size: 24px;
     background-color: blueviolet;
     color: rgb(174, 53, 185);
     box-shadow: 0 0 10px 5px rgba(128, 0, 128, 0.9);

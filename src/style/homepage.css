@@ -39,16 +39,16 @@
 .btn_contact:hover {
     color: aliceblue;
 }
-.btn_contact span {
+.btn_contact i {
     padding-left: 10px;
-    font-size: 34px;
+    font-size: 24px;
     position: absolute; /* Để xác định vị trí tương đối */
-    left: calc(100%); /* Khoảng cách và chiều rộng của span */
+    left: calc(100%); /* Khoảng cách và chiều rộng của i */
     top: 50%; /* Để căn giữa theo chiều dọc */
     transform: translateY(-50%); /* Để căn giữa theo chiều dọc */
     transition: left 0.3s; /* Thêm hiệu ứng di chuyển khi hover */
 }
-.btn_contact:hover span {
+.btn_contact:hover i {
     left: calc(100% + 15px); /* Khi hover, chạy xa 30px */
 }
 

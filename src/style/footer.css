@@ -1,0 +1,18 @@
+.modal-body {
+    width: auto;
+    padding: 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.image-container {
+    position: relative;
+}
+.btn-close {
+    position: absolute;
+    top: 10px; /* Điều chỉnh vị trí theo cần thiết */
+    right: 10px; /* Điều chỉnh vị trí theo cần thiết */
+    z-index: 1; /* Đảm bảo nút hiển thị trên hình ảnh */
+}
