@@ -1,6 +1,7 @@
 import React from 'react';
 import slide4 from "../assets/slide4.svg"
 import "../style/homepage.css"
+import Contact from '../componets/contact';
 class Home extends React.Component {
 
     render() {
@@ -21,37 +22,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="container forms-contact p-5">
-                        <form className="row g-2">
-                            <div className="col-md-6">
-                                <label className="form-label">Email address</label>
-                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                            </div>
-                            <div className="col-md-6">
-                                <label className="form-label">Name</label>
-                                <input type="text" className="form-control" id="inputPassword4" placeholder="Your name" />
-                            </div>
-                            <div className="col-12">
-                                <label className="form-label">Subtitle</label>
-                                <input className="form-control" type="text" aria-label="default input example"></input>
-                            </div>
-                            <div className="col-12">
-                                <label className="form-label">Example textarea</label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div >
-                            <div className="col-12">
-                                <div className="form-check">
-                                    <input className="form-check-input" type="checkbox" id="gridCheck" />
-                                    <label className="form-check-label" >
-                                        Check me out
-                                    </label>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <button type="submit" className="btn btn-primary">Sign in</button>
-                            </div>
-                        </form>
-                    </div>
+                    <Contact />
                 </div>
             </>
 

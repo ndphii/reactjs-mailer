@@ -16,3 +16,12 @@
     right: 10px; /* Điều chỉnh vị trí theo cần thiết */
     z-index: 1; /* Đảm bảo nút hiển thị trên hình ảnh */
 }
+.zalo_link {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+}
+.group_contact p i {
+    margin-right: 5px;
+    display: flexbox;
+}
